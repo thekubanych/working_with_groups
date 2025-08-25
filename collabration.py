@@ -14,3 +14,14 @@ class MyYears:
 a = MyYears(16)
 a.append(15)
 print(a.get())
+
+class Doniko:
+    def __init__(self, name):
+        self.name = name
+
+
+    def get_info(self):
+        return self.name
+
+D = Doniko('Daniel')
+print(D.get_info())
